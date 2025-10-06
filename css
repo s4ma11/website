@@ -1,0 +1,104 @@
+body {
+  background-color: rgba(11, 11, 11, 0.99);
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 16px;
+   width: 100%;
+  height: 100vh;
+  margin: 0;
+
+}
+
+
+fieldset {
+  height: 80%;
+  width: 40%;
+  align-content: center;
+  margin: 0 auto;
+   border: 1px solid rgb(32, 32, 32);
+
+
+input[type="text"],
+input[type="password"]
+{
+  width: 400px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+  font-size: large;
+  font-family: sans-serif;
+   transition: all 0.2s ease;
+}}
+
+}
+
+
+ */
+input[type="password"]:focus ,
+input[type="text"]:focus{
+  border-color: #4b8bff;
+  box-shadow: 0 0 0 3px rgba(75, 139, 255, 0.25);
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 12px auto 0;
+  width: 200px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+
+input[type="submit"]:active {
+  transform: scale(0.98);
+}
+
+
+label {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: large;
+
+}
+
+
+
+.dev1,
+.dev2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  text-align: center;
+}
+a {
+  display: block;
+  text-align: center;
+}
+.forgor {
+  padding-left: 50px;
+  padding-right: 350px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+h4 {
+  text-align: center;
+padding-top: 250px;
+}
